@@ -63,3 +63,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #ログイン機能を追加するジェム
 gem 'devise'
+
+#refileは、ファイルをアップロードできるようにするgemです。
+#refile-mini_magickは、アップロードした画像のリサイズを行えるgemです。
+#リサイズ機能があると、投稿された画像を最適なサイズに変換できるようになります。
+gem "refile", require: "refile/rails", github: 'manfe/refile'
+gem "refile-mini_magick"
