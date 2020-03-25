@@ -69,3 +69,6 @@ gem 'devise'
 #リサイズ機能があると、投稿された画像を最適なサイズに変換できるようになります。
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
+
+#ページング機能を実装するジェム
+gem 'kaminari','~> 1.1.1'
